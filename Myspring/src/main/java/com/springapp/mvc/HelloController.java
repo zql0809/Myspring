@@ -14,8 +14,5 @@ public class HelloController {
 		model.addAttribute("message", "Hello world!");
 		return "hello";
 	}
-    @ResponseBody
-    public void responseBody(){
 
-    }
 }
